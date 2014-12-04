@@ -2,7 +2,7 @@ var test = require('tape');
 var obfuscateEmail = require('../obfuscate-email');
 
 test('obfuscate email', function (t) {
-  t.plan(7);
+  t.plan(9);
 
   var emails = [
     'john.appleseed@example.com',
@@ -14,7 +14,6 @@ test('obfuscate email', function (t) {
 
   emails.forEach(function(email) {
     t.notEqual(obfuscateEmail(email), email);
-    console.log('obfuscateEmail('+email+')',obfuscateEmail(email));
   });
 
   t.equal(obfuscateEmail(''), '');

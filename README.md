@@ -11,7 +11,7 @@ npm install obfuscate-email
 # Usage
 
 ```javascript
-var obfuscateEmail = require('obfuscateEmail');
+var obfuscateEmail = require('obfuscate-email');
 
 obfuscateEmail('john.appleseed@example.com') // *o*n.**p*es***@******e.***
 obfuscateEmail('foo-bar@quux.baz') // ***-*a*@q***.***
