@@ -30,7 +30,7 @@
   } else if (typeof exports !== 'undefined') {
     exports.obfuscateEmail = obfuscateEmail;
   } else {
-    window.hasprop = obfuscateEmail;
+    window.obfuscateEmail = obfuscateEmail;
   }
 
 })();
